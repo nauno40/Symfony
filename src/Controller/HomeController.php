@@ -2,24 +2,19 @@
 namespace App\Controller;
 
 // Les Différents Bundles don't on à Besoin :
-use Symfony\Component\HttpFoundation\Response;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
 
-class HomeController{
+class HomeController extends AbstractController{
 
     // Affiche la Home Page :
     public function homePageAction(){
         return new Response("Coucou !");
     }
 
-
-    /**
-     * @Route("/news/test")
-     */
-    public function show(){
-        return new Response("Coucou T'es sur la 2eme page !");
-        
+    // Affiche la page 2 :
+    public function page2Action(){
+        return new Response("Bienvenu sur la page 2 !");
     }
-
-
 }
