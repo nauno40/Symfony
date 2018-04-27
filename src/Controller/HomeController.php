@@ -8,11 +8,6 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class HomeController{
 
     // Affiche la Home Page :
-    /**
-     * 
-     * @Route("/", "sfghdfhg")
-     * 
-     */
     public function homePageAction(){
         return new Response("Coucou !");
     }
