@@ -1,7 +1,3 @@
-# index:
+#index:
 #    path: /
-#    controller: App\Controller\HomeController::homePageAction
-
-# page2:
-#    path: /page2
-#    controller: App\Controller\HomeController::page2Action
+#    controller: App\Controller\ArticleController::homepage

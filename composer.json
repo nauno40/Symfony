@@ -6,14 +6,15 @@
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/apache-pack": "^1.0",
+        "symfony/asset": "^4.0",
         "symfony/console": "^4.0",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
-        "symfony/orm-pack": "^1.0",
         "symfony/profiler-pack": "^1.0",
-        "symfony/yaml": "^4.0",
-        "twig/twig": "^2.4"
+        "symfony/twig-bundle": "^4.0",
+        "symfony/web-server-bundle": "^4.0",
+        "symfony/yaml": "^4.0"
     },
     "require-dev": {
         "easycorp/easy-log-handler": "^1.0.2",
@@ -21,7 +22,7 @@
         "symfony/debug-bundle": "^3.3|^4.0",
         "symfony/dotenv": "^4.0",
         "symfony/monolog-bundle": "^3.0",
-        "symfony/profiler-pack": "^1.0",
+        "symfony/phpunit-bridge": "^3.3|^4.0",
         "symfony/var-dumper": "^3.3|^4.0"
     },
     "config": {
@@ -64,7 +65,7 @@
     },
     "extra": {
         "symfony": {
-            "id": "01CC303NQQS6H3DXKRP1WRYNTZ",
+            "id": "01C1TW989CK77ZA7B2H4HC9WAG",
             "allow-contrib": false
         }
     }
